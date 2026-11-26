@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>安家账本 · HomeLedger 家庭预算</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark">安</span>
+    <span class="brand-text">安家账本<em>HomeLedger</em></span>
+  </a>
+  <nav class="tabs" id="tabs">
+    <a href="#/" data-route="overview">总览</a>
+    <a href="#/ledger" data-route="ledger">记账</a>
+    <a href="#/budgets" data-route="budgets">预算</a>
+    <a href="#/reports" data-route="reports">报表</a>
+  </nav>
+</header>
+<main id="app" class="page"></main>
+<footer class="foot">
+  <p>安家账本是一个在本机浏览器里运行的家庭预算工具：记收支、定预算、看报表。所有数据只保存在你自己的浏览器里，不联网、不上传。</p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
